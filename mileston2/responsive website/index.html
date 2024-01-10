@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive-Website</title>
+    <style>
+        body{
+            border: 2px solid red;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .img-container{
+            display: flex;
+        }
+        .img-container div{
+            width: 100%;
+        }
+        .img-container img{
+            width: 100%;
+        }
+        @media screen and (max-width : 576px) {
+            .img-container{
+                flex-direction: column;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Responsice WebSite</h1>
+    <div>
+        <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </div>
+        <div class="img-container">
+            <div>
+                <img src="images/1628438277_islamic-new-year.avif" alt="">
+            </div>
+           <div>
+            <img src="images/pexels-photo-769525.jpeg" alt="">
+           </div>
+        </div>
+    
+</body>
+
+</html>
