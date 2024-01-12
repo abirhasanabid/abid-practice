@@ -4,3 +4,49 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: #131313;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+nav li a{
+    color: #424242;;
+    text-decoration: none;
+}
+/* banner-style */
+
+.banner-content{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-title{
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-description{
+    color: #727272;
+}
+   
