@@ -1,0 +1,132 @@
+/* font side */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    background: #FF900E;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #131313;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+nav li a {
+    color: #424242;
+    ;
+    text-decoration: none;
+}
+
+/* banner-style */
+
+.banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-title {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #727272;
+}
+
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header{
+        padding: 60px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* main style */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* teams style starte */
+
+.teams-section{
+    display: flex;
+    align-items: center;
+}
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.text-title{
+    font-size: 2.8rem;
+}
+.text-cotainer{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.text-title .quick {
+    color: #727272;
+    font-weight: 500 ;
+}
+.text-title .our{
+    color: #131313;
+    font-weight: 700;
+}
+.text-title .features{
+    color: #FF900E;
+    font-weight: 700;
+}
